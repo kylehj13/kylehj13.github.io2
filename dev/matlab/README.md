@@ -1,3 +1,2 @@
 # Matlab
 
-source: `{{ page.path }}`
