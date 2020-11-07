@@ -35,7 +35,6 @@ toc()
 ```matlab
 경과 시간은 0.451144초입니다.
 ```
-\\<!--![ex_screenshot](./Img/vectorization_01.png) ![ex_screenshot](./Img/vectorization_02.png)-->
 
 - 매트랩 문법을 조금 이해한다면 알겠지만 (사실 몰라도 쉽게 이해되지만) x의 sin값인 y를 생성하는 코드이다. (tic, toc은 시간 측정 코드)
 - 똑같은 연산인데도 **500배 넘는 성능차이**를 보인다. (사실 Pre-allocation의 이유가 더 크지만 이건 나중에 다루도록 하자 - Vectorization을 안할 시 많이 놓치게 되는 부분이기도하다.)
