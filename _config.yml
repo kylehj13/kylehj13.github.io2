@@ -3,6 +3,11 @@ description: Coffee, Code and Conan
 url: https://kylehj13.github.io
 baseurl: 
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "disqus_wleohbeWVi"
+    
 theme: null
 
 # debug:
