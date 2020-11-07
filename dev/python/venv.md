@@ -1,6 +1,6 @@
-# Python 가상환경 venv 정리
+# Python 가상환경 - venv 
 
-[본 포스팅은 파이썬 도큐먼트 [https://docs.python.org/ko/3/tutorial/venv.html](https://docs.python.org/ko/3/tutorial/venv.html) 를 기반으로 작성되었습니다.]
+[본 포스팅은 파이썬 도큐먼트 [https://docs.python.org/ko/3/tutorial/venv.html](https://docs.python.org/ko/3/tutorial/venv.html)를 기반으로 작성되었습니다.]
 
 # 가상환경이 필요한 이유
 
@@ -56,7 +56,7 @@ deactivate
 
     ---
 
-    # 패키지 설치, 관리를 쉽게해보자 [pip freeze]
+### 패키지 설치, 관리를 쉽게해보자 [pip freeze]
 
     - 가상 환경은 좋긴하지만 환경을 만들때마다 매번 호환되는 패키지를 버전대로 설치하는 것은 굉장히 귀찮은 일이다.
     - pip에선 설치된 패키지를 정리하고 설치하는 루틴을 제공하는데 아래와 같이 사용해보자
