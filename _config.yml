@@ -8,6 +8,13 @@ comments:
   disqus:
     shortname: "disqus_wleohbeWVi"
     
+    
+nalytics:
+  provider: "google"
+  google:
+    tracking_id: "G-EWWHVK8FMZ"
+    anonymize_ip: false # default
+    
 theme: null
 
 # debug:
