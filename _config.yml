@@ -1,7 +1,7 @@
 title: 검은머리 개발자
 description: Coffee, Code and Conan
 url: https://kylehj13.github.io
-baseurl: 
+baseurl: /
 
 comments:
   provider: "disqus"
@@ -27,7 +27,6 @@ readme_index:
 
 plugins:
   - jemoji
-  - jekyll-avatar
   - jekyll-mentions
 
 exclude:
