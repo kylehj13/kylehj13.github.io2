@@ -58,44 +58,44 @@ deactivate
 
 ### 패키지 설치, 관리를 쉽게해보자 [pip freeze]
 
-    - 가상 환경은 좋긴하지만 환경을 만들때마다 매번 호환되는 패키지를 버전대로 설치하는 것은 굉장히 귀찮은 일이다.
-    - pip에선 설치된 패키지를 정리하고 설치하는 루틴을 제공하는데 아래와 같이 사용해보자
-    - 먼저 위에 가상환경 설치 과정을 이용해서 envA와 envB 가상환경 2개를 만들어보자
-    - envA에 설치된 패키지를 그대로 리스트업해서 envB에 옮기는 과정을 진행해보자
-    - 가상환경 생성후 envA에 진입한다.
+- 가상 환경은 좋긴하지만 환경을 만들때마다 매번 호환되는 패키지를 버전대로 설치하는 것은 굉장히 귀찮은 일이다.
+- pip에선 설치된 패키지를 정리하고 설치하는 루틴을 제공하는데 아래와 같이 사용해보자
+- 먼저 위에 가상환경 설치 과정을 이용해서 envA와 envB 가상환경 2개를 만들어보자
+- envA에 설치된 패키지를 그대로 리스트업해서 envB에 옮기는 과정을 진행해보자
+- 가상환경 생성후 envA에 진입한다.
 
-    ```bash
-    python3 -m venv envA
-    python3 -m venv envB
-    source envA/bin/activate
-    ```
+```bash
+python3 -m venv envA
+python3 -m venv envB
+source envA/bin/activate
+```
 
-    - 실험을 위해 matplotlib 패키지를 하나 설치한 후 리스트를 확인해보자
+- 실험을 위해 matplotlib 패키지를 하나 설치한 후 리스트를 확인해보자
 
-    ```bash
-    pip install matlplitlib
-    pip list
-    ```
+```bash
+pip install matlplitlib
+pip list
+```
 
-    ![ex_screenshot](./img/Untitled%201.png)
+![ex_screenshot](./img/Untitled%201.png)
 
-    - 위와 같은 패키지들이 설치되었는데 이 패키지들을 리스트업 해보자
+- 위와 같은 패키지들이 설치되었는데 이 패키지들을 리스트업 해보자
 
-    ```bash
-    pip freeze > requirements.txt
-    ```
+```bash
+pip freeze > requirements.txt
+```
 
-    - 해당 명령어를 실행하면 실행한 위치에 requirements.txt가 생성된 것을 확인할 수 있다. (requirements.txt은 약간 국룰 파일명이다)
+- 해당 명령어를 실행하면 실행한 위치에 requirements.txt가 생성된 것을 확인할 수 있다. (requirements.txt은 약간 국룰 파일명이다)
 
-    ![ex_screenshot](./img/Untitled%202.png)
+![ex_screenshot](./img/Untitled%202.png)
 
-    - requirements.txt 안에 위와 같이 리스트업 된 것을 볼 수 있다.
-    - 이제 envB 가상환경에 진입해서 해당 파일을 install 하면 리스트의 패키지를 모두 설치한다.
+- requirements.txt 안에 위와 같이 리스트업 된 것을 볼 수 있다.
+- 이제 envB 가상환경에 진입해서 해당 파일을 install 하면 리스트의 패키지를 모두 설치한다.
 
-    ```bash
-    pip install -r ./envA/requirements.txt
-    ```
+```bash
+pip install -r ./envA/requirements.txt
+```
 
-    [설치 완료된 모습]
+[설치 완료된 모습]
 
-    ![ex_screenshot](./img/Untitled%203.png)
+![ex_screenshot](./img/Untitled%203.png)
