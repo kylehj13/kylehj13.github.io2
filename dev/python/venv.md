@@ -54,7 +54,7 @@ deactivate
 
     ![ex_screenshot](./img/Untitled.png)
 
-    ---
+---
 
 ### 패키지 설치, 관리를 쉽게해보자 [pip freeze]
 
