@@ -3,17 +3,17 @@ description: Coffee, Code and Conan
 url: https://kylehj13.github.io
 baseurl: /
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "disqus_wleohbeWVi"
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: "disqus_wleohbeWVi"
     
     
-nalytics:
-  provider: "google"
-  google:
-    tracking_id: "G-EWWHVK8FMZ"
-    anonymize_ip: false # default
+#nalytics:
+#  provider: "google"
+#  google:
+#    tracking_id: "G-EWWHVK8FMZ"
+#    anonymize_ip: false # default
     
 theme: null
 
